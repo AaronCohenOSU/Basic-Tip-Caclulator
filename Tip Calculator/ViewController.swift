@@ -17,10 +17,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        billAmountTextField.keyboardType = UIKeyboardType.numberPad
+        billAmountTextField.keyboardType = UIKeyboardType.decimalPad
+        billAmountTextField.becomeFirstResponder()
         // Do any additional setup after loading the view.
     }
-
+    
+    
     @IBAction func calculateTip(_ sender: Any) {
         
         let bill = Double(billAmountTextField.text!) ?? 0
@@ -31,7 +33,9 @@ class ViewController: UIViewController {
         
         tipAmountLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        
     }
     
+
 }
 

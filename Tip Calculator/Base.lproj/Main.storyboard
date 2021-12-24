@@ -37,7 +37,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="L1Z-Lc-GPO">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="L1Z-Lc-GPO">
                                 <rect key="frame" x="35" y="200" width="359" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
@@ -63,7 +63,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfM-1b-TWx">
-                                <rect key="frame" x="310" y="257" width="69" height="21"/>
+                                <rect key="frame" x="310" y="257" width="84" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -76,7 +76,7 @@
                     <connections>
                         <outlet property="billAmountTextField" destination="twZ-aS-chX" id="V9S-mr-VuH"/>
                         <outlet property="tipAmountLabel" destination="qro-vc-FUB" id="rAJ-Q7-dMP"/>
-                        <outlet property="tipControl" destination="L1Z-Lc-GPO" id="9wF-BT-Ckg"/>
+                        <outlet property="tipControl" destination="L1Z-Lc-GPO" id="FcB-Az-BRH"/>
                         <outlet property="totalLabel" destination="CfM-1b-TWx" id="Hks-9c-QA1"/>
                     </connections>
                 </viewController>
